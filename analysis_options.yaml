@@ -1,0 +1,14 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - "**/*.g.dart"
+
+linter:
+  rules:
+    unnecessary_this: false
+    curly_braces_in_flow_control_structures: false
+    prefer_double_quotes: true
+    always_specify_types: true
+    library_prefixes: false
+    always_declare_return_types: true
